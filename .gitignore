@@ -1,0 +1,22 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Node (in case tooling is added later)
+node_modules/
+npm-debug.log*
+dist/
+build/
+
+# Env / secrets — never commit
+.env
+.env.*
+*.pem
+*.key
+
+# Temp
+*.tmp
+*.log
